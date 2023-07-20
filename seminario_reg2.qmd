@@ -76,13 +76,13 @@ print(plot)
 ```{R}
 resp = dados$adjclose_petro
 x1 = dados$MM7_petro
-#x2 = dados$adjclose_barril
-x2 = dados$MM7_barril
+x2 = dados$adjclose_barril
+#x2 = dados$MM7_barril
 #x4 = dados$MM14_barril
-#x3 = dados$adjclose_dolar
-x3 = dados$MM7_dolar
-#x4 = dados$adjclose_b3
-x4 = dados$MM7_b3
+x3 = dados$adjclose_dolar
+#x3 = dados$MM7_dolar
+x4 = dados$adjclose_b3
+#x4 = dados$MM7_b3
 base = data.frame(Y = resp, X1 = x1, X2 = x2, X3 = x3, X4 = x4)
 ```
 
